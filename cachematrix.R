@@ -1,7 +1,6 @@
 ## doing the caching function
-## 
+## creating a matrix called inv and setting it to null, setting the variables
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -17,6 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## returning a matrix that is the inverse of the matrix supplied
+## this assumes the matrix is in fact "invertible"
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
